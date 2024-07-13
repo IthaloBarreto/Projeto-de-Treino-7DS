@@ -1,0 +1,130 @@
+.history__container {
+    margin-top: 150px;
+    padding: 0 15em;
+}
+
+.background__history {
+    box-shadow: 0px 0px 20px -4px rgba(0, 0, 0, 0.425);
+    width: 100%;
+    height: 330px;
+    background-color: #571e1e;
+}
+
+.history {
+    position: relative;
+    padding: 3em 7em;
+    display: grid;
+    grid-template-columns: 1fr 480px;
+    color: #ffffff;
+}
+
+.history p {
+    color: #e4e4e4;
+}
+
+.history__description h2 {
+    font-size: 48px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.history__image {
+    position: absolute;
+    top: -9em;
+    right: 120px;
+}
+
+.history__image img {
+    width: 300px;
+}
+
+@media screen and (max-width: 1440px){ 
+    .history__container {
+        margin-top: 160px;
+        padding: 0em 8em;
+    }
+
+    .history {
+        padding: 2.5em 5.5em;
+        grid-template-columns: 1fr 320px;
+    }
+
+    .history__image {
+        right: 80px;
+        top: -8.2em;
+    }
+
+    .history__image img {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .history__container {
+        padding: 0 3em;
+        margin-top: 110px;
+    }
+
+    .history {
+        padding: 2em 3em;
+        grid-template-columns: 1fr 200px;
+    }
+
+    .history h2 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .history__image {
+        right: 10px;
+        top: -6em;
+    }
+
+    .history__image img {
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .history__container {
+        padding: 0 1em;
+    }
+
+    .background__history {
+        position: relative;
+        box-shadow: 0px 0px 20px -4px rgba(0, 0, 0, 0.425);
+        width: 100%;
+        height: 460px;
+        background-color: #571e1e;
+    }
+
+    .history {
+        padding: 12em 1em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .history__description {
+        z-index: 1;
+        backdrop-filter: blur(1px);
+    }
+
+    .history__description h2 {
+        font-size: 26px;
+    }
+
+    .history__description p {
+        font-size: 14px;
+    }
+
+    .history__image {
+        top: -15%;
+        left: 48%;
+        transform: translateX(-50%);
+    }
+
+    .history__image img {
+        width: 200px;
+    }
+}

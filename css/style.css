@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('./main.css');
+@import url('./history.css');
+@import url('./characters.css');
+@import url('./slider.css');
+@import url('./memoryGame.css');
+@import url('./footer.css');
+
+:root {
+    --fonte: 'Roboto', sans-serif;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    font-family: var(--fonte);
+    background-color: #7a1414d5;
+    overflow-x: hidden;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(10px);
+    transition: opacity 1.3s ease-in-out;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transition: opacity 1.3s ease-in-out;
+}

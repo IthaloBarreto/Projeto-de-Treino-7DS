@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto | 7ds</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link CDN SwiperJs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <section class="main">
+            <div class="header">
+                <a href="https://www.netflix.com"><img src="./img/Logonetflix.png" alt="logo netflix"></a>
+                <img src="./img/7dslogo.png" alt="logo 7ds">
+            </div>
+            <form class="form">
+                <h2>OS 7 PECADOS CAPITAIS</h2>
+                <div class="tosign">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, corporis facilis quaerat
+                        perspiciatis modi, architecto exercitationem recusandae delectus asperiores facere commodi
+                    </p>
+                    <input class="input__email" type="email" id="email" placeholder="Digite seu email">
+                    <div class="div__btn">
+                        <button id="btn__tosign" type="submit">AVANÇAR</button>
+                    </div>
+                    <div class="terms">
+                        <input type="checkbox" required>
+                        <p>Li e concordo com os termos.</p>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <section class="history__container hidden">
+            <div class="background__history">
+                <div class="history">
+                    <div class="history__description">
+                        <h2>HISTÓRIA</h2>
+                        <p>O “Sete Pecados Capitais” (“The Seven Deadly Sins”) era o mais forte grupo de cavaleiros que
+                            defendia a região de Britannia. Há dez anos eles foram acusados de tentar dar um golpe para
+                            tomar o reino e teriam sido impedidos pelos Paladinos, guerreiros sagrados poderosíssimos do
+                            reino de Lyonesse, e fugido.<br>
+                            <br>
+                            Agora, dez anos depois, os Sete Pecados Capitais ainda são procurados e viraram lenda.
+                            Ninguém sabe se eles estão vivos ou mortos, se estão unidos ou o que teria acontecido com
+                            eles. Mas, ao mesmo tempo, começam a surgir indícios de que os Paladinos talvez não sejam
+                            tão idôneos assim.
+                        </p>
+                    </div>
+                    <div class="history__image">
+                        <img src="./img/meliodas.png" alt="meliodas">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="characters__container hidden">
+            <h2>Pecados mais fortes:</h2>
+            <div class="characters__list">
+                <div class="character__item">
+                    <h2>Merlin</h2>
+                    <img src="./img/merlin.png" alt="merlin card">
+                    <div class="item__description">
+                        <p>Pecado da gula</p>
+                        <a href="https://nanatsu-no-taizai.fandom.com/pt-br/wiki/Merlin">Saiba mais</a>
+                    </div>
+                </div>
+
+                <div class="character__item">
+                    <h2>Escanor</h2>
+                    <img class="img-escanor" src="./img/escanor.png" alt="escanor card">
+                    <div class="item__description">
+                        <p>Pecado do orgulho</p>
+                        <a href="https://nanatsu-no-taizai.fandom.com/pt-br/wiki/Escanor">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="character__item">
+                    <h2>Meliodas</h2>
+                    <img src="./img/meliodas.png" alt="meliodas card">
+                    <div class="item__description">
+                        <p>Pecado da Ira</p>
+                        <a href="https://nanatsu-no-taizai.fandom.com/pt-br/wiki/Meliodas">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="wallpapers container hidden">
+            <h2>Wallpapers:</h2>
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <div class="slide first">
+                        <img src="./img/wallpaper5.jpg" alt="imagem5">
+                    </div>
+
+                    <div class="slide">
+                        <img src="./img/wallpaper3.jpg" alt="imagem3">
+                    </div>
+
+                    <div class="slide">
+                        <img src="./img/wallpaper4.jpg" alt="imagem4">
+                    </div>
+
+                    <div class="slide">
+                        <img src="./img/wallpaper6.jpg" alt="imagem6">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="memory__game hidden">
+            <div class="background__game">
+
+                <div class="buttons">
+                    <button class="button-start">Começar</button>
+                    <div>Tempo decorrido: <span class="timer">00</span></div>
+                </div>
+
+                <div class="grid">
+                    <!-- <div class="card">
+                        <div class="face front"></div>
+                        <div class="face back"></div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Site fictício sobre Nanatsu no taizai.</p>
+    </footer>
+
+    <script src="./js/slide.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/scrollAnimation.js"></script>
+</body>
+
+</html>
